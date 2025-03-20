@@ -1,6 +1,6 @@
 
 document.getElementById('registrationForm').addEventListener('submit', function(e) {
-    e.preventDefault(); // Prevent the default form submission
+    e.preventDefault(); 
 
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
