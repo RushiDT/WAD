@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registered Users</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> <!-- Google Font: Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
     <style>
-        /* General body styles */
         body {
-            font-family: 'Montserrat', sans-serif; /* Using Montserrat Font */
-            background-color: #f4f4f4; /* Light gray background for contrast */
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f4f4f4; 
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -17,39 +16,36 @@
             padding: 20px;
         }
 
-        /* Styling for the heading */
         h1 {
             color: #333;
             margin-bottom: 20px;
         }
 
-        /* Table styles */
         table {
-            width: 80%; /* Full width with padding */
-            border-collapse: collapse; /* Collapse borders */
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for table */
-            background-color: white; /* White background for table */
+            width: 80%; 
+            border-collapse: collapse; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+            background-color: white; 
         }
 
         th, td {
-            padding: 12px; /* Padding for cells */
-            text-align: left; /* Left-align text */
-            border-bottom: 1px solid #ddd; /* Light gray border for rows */
+            padding: 12px; 
+            text-align: left; 
+            border-bottom: 1px solid #ddd; 
         }
 
         th {
-            background-color: #4CAF50; /* Green background for header */
-            color: white; /* White text for header */
+            background-color: #4CAF50; 
+            color: white; 
         }
 
         tr:hover {
-            background-color: #f1f1f1; /* Light gray background on hover */
+            background-color: #f1f1f1; 
         }
 
-        /* Media query for responsiveness */
         @media (max-width: 768px) {
             table {
-                width: 100%; /* Full width for smaller screens */
+                width: 100%; 
             }
         }
     </style>
@@ -62,7 +58,7 @@
             <tr>
                 <th>Name</th>
                 <th>Email</th>
-                <th>City</th> <!-- New City column -->
+                <th>City</th>
             </tr>
         </thead>
         <tbody id="userList"></tbody>
